@@ -1,0 +1,4 @@
+# Ignore specific large files
+Smiles_without_borders/models/model_*.pt
+DILIst/data/DILIst_features.csv
+DILIst/data/DILIst_features_v2.csv.gz

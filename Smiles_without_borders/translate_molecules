@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Assign command-line arguments to variables
+SRC_FILE=$1  # Path to the processed input file
+BEAM=$2      # Beam size
+OUT_FILE=$3  # Path to the output file for predicted metabolites
+
+MIN=5   # Minimum length of predicted sequence (in SMILES)
+MAX=120 # Maximum length of predicted sequences (in SMILES)
+
+# Assuming the directory for the OUT_FILE exists, or you may need to create it:
+OUT_DIR=$(dirname "$OUT_FILE")
+mkdir -p $OUT_DIR
+
+# Loop through the models and run predictions
+for model_id in {1,2,3,4,5,6}
+do
+    MODEL_FILE="models/model_${model_id}.pt"
+    # Modify the output file name to include the model_id
+    MODEL_OUT_FILE="${OUT_DIR}/model_${model_id}_$(basename "$OUT_FILE")"
+    python /dgx1nas1/storage/data/seal/Metabolite_Project/Smiles_without_borders/translate.py -model $MODEL_FILE -src $SRC_FILE -output $MODEL_OUT_FILE -n_best $BEAM -beam_size $BEAM -verbose -min_length $MIN -max_length $MAX
+done
