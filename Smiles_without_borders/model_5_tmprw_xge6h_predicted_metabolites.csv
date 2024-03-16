@@ -1,5 +1,5 @@
-C N 1 C ( = O ) C C C 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C C ( O C C C 1 C C C N 1 ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C C ( O C C C 1 C C C N 1 ) ( c 1 c c c ( Cl ) c c 1 ) c 1 c c c c c 1
-C [N+] 1 ( [O-] ) C C C C 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C N 1 C C C C 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
+N C ( C C C ( = O ) N C ( C S / C = C \ Cl ) C ( = O ) N C C ( = O ) O ) C ( = O ) O
+O = C / C = C \ Cl
+N C ( C C C ( = O ) N C ( C S / C = C / Cl ) C ( = O ) N C C ( = O ) O ) C ( = O ) O
+O C / C = C \ Cl
+O = C / C = C / Cl

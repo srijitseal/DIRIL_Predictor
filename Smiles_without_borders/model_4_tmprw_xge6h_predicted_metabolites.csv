@@ -1,5 +1,5 @@
-C C ( O C C C 1 C C C N 1 ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C N 1 C C C [C@H] 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C C ( O C C C 1 C C C N 1 C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C N 1 C C C C 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1
-C N 1 C C C C 1 C C O C ( C ) ( c 1 c c c c c 1 ) c 1 c c c ( Cl ) c c 1 O
+Cl C C 1 O C 1 C Cl
+N C ( C C C ( = O ) N C ( C S C C ( Cl ) = C Cl ) C ( = O ) N C C ( = O ) O ) C ( = O ) O
+N C ( C C C ( = O ) N C ( C S C C ( N ) C ( = O ) O ) C ( = O ) N C C ( = O ) O ) C ( = O ) O
+O C ( C N C ( = O ) C C C ( N ) C ( = O ) O ) C ( O ) C ( O ) = N C C ( = O ) O
+O C ( C N C ( = O ) C C C ( N ) C ( = O ) O ) C ( O ) C ( O ) = N C C S C C ( Cl ) = C Cl
